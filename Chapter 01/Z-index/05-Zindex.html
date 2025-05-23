@@ -1,0 +1,80 @@
+<!-- CSS z-index property controls the stacking order of elements in a web page when they overlap in the same stacking context. -->
+
+<!-- Elements with a higher z-index value appear in front of elements with lower values. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		.box01{
+			position: absolute;
+			height: 50em;
+			width: 50em;
+			background-color: hsla(160, 100%, 49%, 0.73);
+			z-index: auto;
+			text-align: center;
+			padding :4px;
+			left: 25px;
+			right: 25px;
+			top: 30px;
+		}
+		.box02{
+			position: absolute;
+			height: 20em;
+			width: 20em;
+			background-color: hsla(159, 18%, 16%, 0.73);
+			z-index:1;
+			text-align: center;
+			padding :4px;
+			left: 25px;
+			right: 25px;
+			top: 30px;
+			letter-spacing: .1cm;
+			
+		}
+		.erenpic{
+			width: 700px;
+			position: absolute;
+			align-items: center;
+			z-index: auto;
+		}
+		.eren{
+			z-index: 3;
+			font-size: 33px;
+			color: aliceblue;
+
+
+		}
+		   .container {
+            position: relative;
+            width: 500px;
+        }
+        img {
+            display: block;
+			width: 500px;
+        }
+        .txt {
+            position: absolute;
+            top: 70%;
+            left: 45%;
+            transform: translate(-50%, -50%);
+            color: rgb(18, 136, 210);
+            font-family: Verdana, sans-serif;
+            font-size: 80px;
+            background: rgba(247, 198, 198, 0.5);
+        }
+	</style>
+</head>
+<body>
+	<!-- <div class="box01">Card 01</div>
+	<div class="box02">Card 02</div> -->
+	<div class="container">
+		<img src="./eren.png" alt="" >
+	    <h2 class="txt">Eren</h2>
+	</div>
+	
+</body>
+</html>
