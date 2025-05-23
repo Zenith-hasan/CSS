@@ -1,0 +1,10 @@
+# Navigation bar is a section of a graphical user interface(GUI) that helps users navigate through a website, app or other software. It is essentila for the users to quickly and easily navigate to the content they are looking for.
+
+# The navigation bar can be horizontal or vartical, that contains links to important pages or features.
+
+Step to structue a proper navar : 
+    01. HTML Structure 
+    02. Remove Defalult Styles 
+    03. Flex Layout 
+    04. Responsive Design 
+    05. Hamburger Menu
